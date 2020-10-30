@@ -1,0 +1,140 @@
+/*
+Demis Mazzotta
+Corso B
+esercizio sui layout
+css contenente le varie specifiche per i layout 
+*/
+body{
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+    font-size: 8pt;
+    font-family: Verdana,Tahoma,sans-serif;
+    margin:0px 0px 0px 0px;
+}
+#banner{
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+    background-repeat: repeat-x;
+    height: 50px;
+    }
+
+ #banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    }
+
+h1{
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align:center;
+}
+
+#selezioneGlobale{
+    border-style:solid;
+    border-width:4px;
+    border-radius:8px;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+#classificazione{
+    float:left;
+    width:550px;
+    margin: 0px;
+}
+#rotten{
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+    font-size:48pt;
+    font-weight:bold;
+    color:red;
+}
+#rotten img{
+    height:83px;
+    vertical-align:top;
+    
+}
+.recensione, .recensione2{
+    float: left;
+    width:47%;  
+    padding-left: 2%;
+}
+
+q{
+font-weight:bold;
+font-size: 8pt;
+clear: right;
+
+}
+
+p img{
+    margin-right: 5px;
+}
+
+.recensore{
+    overflow: auto;
+    border-style:none;
+    padding-bottom: 20pt;
+}
+
+.testate{
+    clear: left;
+    font-style:italic;}
+
+.recensore img{
+   float: left;
+}
+
+.citazione{
+    overflow: auto;
+    padding: 8px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #E8DC9B;
+}
+.citazione img{
+    float: left;
+}
+
+#general_overview{
+    float:right;
+    background-image: none;
+    background-color: #A2B964;
+    width:250px;
+    font-size:8pt;
+    font-family:Arial,sans-serif;
+    }
+dl{
+    margin: 10pt;
+}
+dt{ 
+    font-weight: bold;
+}
+dd{ 
+    padding-bottom: 10pt;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#pag{
+    margin: 0px;
+    border-width: 5px;
+    text-align: center;
+    background-color: #A2B964;
+    clear: both;
+}
+
+div#ref{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
