@@ -1,4 +1,10 @@
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
+
 //file contenente funzioni per la ricezione e l'invio dei dati utente
 $name=$_SESSION['username'];
 

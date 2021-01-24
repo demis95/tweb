@@ -1,16 +1,11 @@
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 include 'connect.php';
 
-/*
-CREATE TABLE IF NOT EXISTS users (
-  id int(10) unsigned NOT NULL AUTO_INCREMENT,
-  username varchar(25) COLLATE utf8_unicode_ci NOT NULL,
-  password varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  email varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (id),
-  CONSTRAINT keylog UNIQUE(username,email)
-);
-*/
 
  //Retrieve the field values from our registration form.
  $username = !empty($_POST['unamer']) ? trim($_POST['unamer']) : null;

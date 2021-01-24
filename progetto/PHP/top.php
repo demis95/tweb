@@ -1,4 +1,9 @@
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
     if (!isset($_SESSION)) { session_start(); }
 ?>
 

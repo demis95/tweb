@@ -1,23 +1,26 @@
 <?php
-//Our MySQL user account.
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
+
 define('MYSQL_USER', 'root');
  
-//Our MySQL password.
+
 define('MYSQL_PASSWORD', '');
  
-//The server that MySQL is located on.
+
 define('MYSQL_HOST', 'localhost');
 
-//The name of our database.
+
 define('MYSQL_DATABASE', 'progetto');
 
 if(!isset($_SESSION)){session_start();}
 
-/**
- * Connect to MySQL and instantiate the PDO object.
- */
+
 try{$pdo = new PDO(
-    "mysql:host=" . MYSQL_HOST . ";dbname=" . MYSQL_DATABASE, //DSN
+    "mysql:host=" . MYSQL_HOST . ";dbname=" . MYSQL_DATABASE,
     MYSQL_USER, //Username
     MYSQL_PASSWORD, //Password
     );
@@ -43,5 +46,4 @@ function redirect($url, $messaggio){
     header("Location: $url");
     die;
 }
-//se tutto regolare invece mostro la pagina statistiche
 ?>

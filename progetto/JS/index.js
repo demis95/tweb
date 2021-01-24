@@ -1,3 +1,8 @@
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 var i=0;
 var counter=0;
 var first=false;

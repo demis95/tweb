@@ -1,4 +1,9 @@
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 include "connect.php";
 loggedIN("progressi.php");
 include "top.php";

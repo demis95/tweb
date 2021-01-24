@@ -1,4 +1,10 @@
+
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 require 'connect.php';
 $name=$_SESSION['username'];
 $id=getID($name,$pdo);

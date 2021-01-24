@@ -1,4 +1,9 @@
 <?php
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 require 'connect.php';
  //inizializzo una variabile ospite per ovviare ad un grosso problema di query automatiche.
 $pesocheck="/^([3-9][0-9]|[0-1][0-1][0-9]|[0-1][2][0])$/"; //"/^([3-9][0-9])$/";

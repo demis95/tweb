@@ -1,3 +1,8 @@
+/*
+Autore: Demis Mazzotta
+        Corso B
+        MATR 814574
+ */
 $(document).ready(function() {
     $( "#filtro" ).change( function () {
         $( "select option:selected" ).each( function () {
