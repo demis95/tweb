@@ -1,0 +1,811 @@
+.bannerarea{
+    width: 100%;
+    text-align: center;
+    background-color: #1e90ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+  letter-spacing: 2px;
+}
+p{
+  font-size: 18px;
+}
+#flash{
+  background-color: #ffffcc;
+  border: 2px dotted #ccccaa;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+}
+#errid{
+  background-color: #ffffcc;
+  border: 2px dotted #ccccaa;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  .container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .container input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #login,#entra {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*
+  input:invalid{
+    background: hsla(0,90%,70%,1);
+  }
+  input:valid{
+    background: hsla(100,90%,70%,1);
+  }
+
+   */
+  #register{
+    background-color: #303335;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .container {
+    width: 50%;
+    padding: 16px;
+    margin: auto;
+  }
+
+.maindescription{
+  text-align: center;
+  font-size: 20px;
+}
+body{
+  min-width:1050px ;
+}
+#flash, #responsetext{
+  background-color: #ffffcc;
+  border: 1px dotted #ccccaa;
+  margin:8px;
+  padding: 8px;
+}
+/*css per la pagina market.html */
+.righe{
+      /* float: left; */
+      position: relative;
+      /* text-align: center; */
+      left: 5%;
+      width: 91%;
+  }
+.colonna{
+  float: left;
+  background-color: #aaa;
+  text-align: center;
+  border: black;
+  width: 30%;
+  padding: 16px;
+  margin: auto;
+}
+.bottom{
+  clear:both;
+  text-align: center;
+}
+.navbar{
+  clear:both;
+  text-align: center;
+}
+/* css per navbar*/
+.navbarlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #333;
+}
+.navbar li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.active{
+  background-color: #4CAF50;
+}
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.personalData{
+
+  padding-top: 25px;
+  margin: auto;
+  width: 80%;
+}
+.avatar{
+  width: 30%;
+  float:left;
+  padding-left: 3.5%;
+}
+.dataSample{
+  width: 30%;
+  float: left;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.dataSamplelist li , .dataInfolist li{
+  list-style-type: none;
+  padding-bottom: 25px;
+}
+.dataInfolist strong{
+  float: left;
+  width: 50%;
+}
+.dataInfolist input[type=email] ,input[type=number]
+{
+
+  padding: 4px;
+  width: 45%;
+}
+.dataINFO{
+  width: 30%;
+  float: left;
+  padding-right: 3.5%;
+  text-align: right;
+}
+.datainfoForm{
+  width: 60%;
+  float: left;
+}
+.img{
+  height: 300px;
+  width: 275px;
+}
+#postdata{
+  width: 30%;
+  padding:10px;
+  color: black;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  /*background: url('contrasticon.png'); */
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  /*background: url('contrasticon.png');*/
+  cursor: pointer;
+}
+
+/* css per il form del calcolo IMC */
+#imc {
+  background-color: #edf2f5;
+  border: 3px solid #dcdfce;
+  padding: 16px;
+  clear: both;
+  min-width: 543px;
+  position: relative;
+  margin-bottom: 0;
+  overflow: auto;
+}
+#imc p{
+  text-align: center;
+}
+#imc label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .95em;
+}
+#peso {
+  margin-top: 3em;
+}
+#peso, #altezza {
+  display: block;
+  width: 900px;
+  float: left;
+  clear: left;
+}
+#imc label, #imc .figura,
+#imc .input, #imc .slider,
+#imc .misura {
+  display: block;
+  float: left;
+  min-height: 100px;
+}
+#imc label {
+  width: 100px;
+  margin-top: 32px;
+}
+#imc .figura {
+  width: 60px;
+}
+#imc .figura img {
+  width: auto;
+  height: auto;
+}
+#imc input {
+  margin-left: 1em;
+  margin-top: 25px;
+  padding: .2em;
+  text-align: center;
+  width: 40px;
+  float: left;
+}
+#imc .misura {
+  padding-left: 1em;
+  margin-top: 30px;
+}
+#imc .buttonCalcola {
+  float: left;
+  margin-top: 22px;
+  border-radius: 7px;
+
+}
+#imcbutton {
+  border: 0;
+  display: block;
+  float: right;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+#imcbutton, #imcbutton span {
+  padding: 0;
+  margin: 0;
+  background-color: #ccccaa;
+}
+#imcbutton span {
+  background-position: right top;
+  margin-left: 12px;
+  padding-right: 12px;
+  line-height: 34px;
+  font-size: .9em;
+}
+#imcbutton:hover,
+#imcbutton:focus,
+#imcbutton:active {
+  background-position: left -60px;
+}
+#imcbutton:hover span,
+#imcbutton:focus span,
+#imcbutton:active span {
+  background-position: right -60px;
+  text-decoration: underline;
+}
+#imcbutton {
+  margin-bottom: 1em;
+}
+#scala {
+  position: relative;
+  width: 100%;
+  margin-top: 1em;
+}
+#scala ul {
+  display: table;
+  width: 100%;
+  padding: 0px;
+
+}
+#scala ul li {
+  border-style: solid;
+  display: table-cell;
+  text-align: center;
+  width: 14.2857142857%;
+  height: 20px;
+  background-position: left 16px;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  vertical-align: top;
+}
+
+#foglia .portlet-content #scala ul {
+  margin-left: 0;
+  padding-left: 0;
+  /*display: flex;*/
+  display: inline;
+}
+
+#foglia .portlet-content #scala li {
+  display: inline-block;
+  list-style-image: none;
+  float: left;
+}
+
+.grave {
+  background-color: dodgerblue !important;
+  border-color: dodgerblue;
+  border-radius: 6px;
+
+}
+.sottopeso {
+  background-color: aqua !important;
+  border-color: aqua;
+  border-radius: 6px;
+}
+.normopeso {
+  background-color: #4CAF50 !important;
+  border-color: #4CAF50;
+  border-radius:6px;
+}
+.sovrappeso {
+  background-color: yellow !important;
+  border-color: yellow;
+  border-radius: 6px;
+}
+.obeso-1 {
+  background-color: darkorange !important;
+  border-color: darkorange;
+  border-radius: 6px;
+}
+.obeso-2 {
+  background-color: peru !important;
+  border-color: peru;
+  border-radius: 6px;
+}
+.obeso-3 {
+  background-color: darkred !important;
+  border-color: darkred;
+  border-radius: 6px;
+  /*background-position: right 16px!important;*/
+}
+.alt #scala ul li.sottopeso {
+  width: 7.35294117647%;
+}
+.alt #scala ul li.normopeso {
+  width: 17.6470588235%;
+}
+#scala ul li span {
+  display: block;
+  width: auto;
+  line-height: 1.3em;
+  font-size: .9em;
+}
+#risultato {
+  display: block;
+  color: black;
+  /*/background: transparent url('../img/result-bg.png') no-repeat center center;*/
+  font-size: 2em;
+  text-align: center;
+  line-height: 34px;
+  width: 85px;
+  margin-left: -42.5px;
+  height: 46px;
+  position: absolute;
+}
+.slider {
+  position: relative;
+  cursor: pointer;
+  width: 70%;
+}
+#peso .slider {
+  background: transparent url('../IMG/greybg.png') no-repeat 13px 24px;
+  background-size: 94% 26px;
+}
+#altezza .slider {
+  background:transparent url('../IMG/yelow.png') no-repeat 13px 24px;
+  background-size: 94% 26%;
+  /*background-color: khaki;
+  background-size: 60% 26px;
+  background-position: 13px 24px;
+   */
+}
+/* maniglia */
+.handle {
+  -webkit-appearance: none;
+  background: black;
+  height: 46px;
+  width: 100px;
+  padding-right: 6px;
+  top: -22px;
+  line-height: 28px;
+  text-align: center;
+  position: absolute;
+  display: block;
+  cursor: move;
+  font-weight: normal;
+}
+
+.handle::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+label{
+  font-weight: bold;
+}
+body {
+  border-style: groove;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: black;
+}
+/*
+
+.handle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+ */
+
+#myRange.handle{
+  width: 91%;
+  height: 15px;
+  margin-top: 35px;
+}
+#myHeigh.handle{
+  width: 91%;
+  height: 15px;
+  margin-top: 35px;
+
+}
+.handle:focus,
+.handle:hover {
+  text-decoration: none;
+}
+#peso .handle {
+  background: transparent;/*url('../img/indicatore-peso.png') no-repeat left center;*/
+  color: white;
+}
+#altezza .handle {
+  background: transparent;
+ /* background: transparent url('../img/indicatore-altezza.png') no-repeat left center;*/
+  color: black;
+}
+/* the input field */
+.range {
+  width: 2em;
+}
+.scala {
+  width: 90%;
+  border-bottom: 1px solid #333;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.scala, .minore {
+  border-collapse: collapse;
+}
+tbody > tr > td{
+  padding: 0;
+}
+.scala > tbody > tr > td {
+  border-right: 1px solid #333;
+  height: 16px;
+  vertical-align: bottom;
+}
+.scala > tbody > tr > td:first-child {
+  border-left: 1px solid #333;
+}
+.scala .minore {
+  width: 100%;
+  border-bottom: 0;
+}
+.scala .minore > tbody > tr > td {
+  border-left: 1px solid #333;
+  height: 7px;
+  width: 10%;
+}
+.scala .minore > tbody > tr > td:first-child {
+  border-left: 0;
+}
+#peso td {
+  border-color: white!important;
+}
+#peso .scala {
+  border-bottom-color: white;
+}
+.misure {
+  margin-top: 10px;
+  margin-left: 12px;
+  width: 100%;
+}
+.misure td {
+  width: 9%;
+}
+/* bug di firefox */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+acronym[title] {
+  border-bottom: 0;
+}
+/* messaggi di errore form */
+.error {
+  color: #900;
+}
+.clearboth {
+  clear: both;
+  font-size: 0px;
+}
+foglia .portlet-content #scala li {
+  display: inline-block;
+  list-style-image: none;
+  float: left;
+}
+#stampaButton{
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 10px;
+  float: left;
+  width: 40%;
+  margin-left: 6.6%;
+  margin-right: 3.3%;
+  background-color: azure;
+
+}
+
+#shareButton ,#shareButton1{
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 10px;
+  float: left;
+  width: 40%;
+  margin-left: 3.3%;
+  margin-right: 6.6%;
+  background-color: azure;
+}
+
+
+/*css per pagina metabolismo_basale*/
+
+#formapeso #formapesoclass{
+  font-family: "Barlow",sans-serif;
+  border: 1px solid #e6e8ed;
+  font-size: 1.125rem;
+  width: auto;
+  padding:0 0 20px;
+  margin: 0 0 20px;
+  table-layout: fixed;
+  display: table;
+  font-size: 18px;
+}
+#formapeso tbody> tr > td {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+#formapesoclass tbody> tr > td{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+select{
+  font-family: "Barlow",sans-serif;
+  padding: 1px 30px 1px 5px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #00dad6;
+  -webkit-appearance: none;
+  font-weight: 400;
+  width: 100%;
+  max-width: 100%;
+}
+#filtro{
+  width: 15%;
+  border-color: #4CAF50;
+  border-radius: 5px;
+
+}
+#filtrodiv{
+  text-align: center;
+  padding-bottom: 20px;
+}
+#pesoinput{
+  height: 25px;
+  font-size: 1rem;
+  text-align: center;
+margin: 0em;
+padding: 1px 2px;
+border: 1px solid #00dad6;
+}
+#CalorieButton{
+  border: none;
+  height: 50px;
+  color: #fff;
+  border-radius: 25px;
+  background-color: #00dad6;
+  font-family: "Barlow Condensed",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 48px;
+  padding: 0 25px;
+}
+#formapesoclass{
+  visibility: hidden;
+  width: 94%;
+}
+#formapesoclass tbody> tr > td {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+span{
+  padding: 0.25px;
+}
+blockquote{
+  text-align: center;
+  font-family: "Lucida Console";
+  line-height: 1.5;
+}
+
+.textarea{
+  resize:none;
+  border:1px solid #00dad6;
+  font-size: 22px;
+  text-align: center;
+  margin:auto;
+  bgcolor:"#F7F7FB"
+}
+
+/*
+css per la pagina statistiche.php
+ */
+#divStatistiche1{
+  width: 90%;
+  border-radius: 5px;
+  border-color: #4CAF50;
+  border-style: groove;
+  margin: auto;
+}
+#grid-container {
+  display: grid;
+  grid-template-areas: 'data peso0 imc metabolismo pesoX';
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+#imgdiv {
+  margin-top: 30px;
+  text-align: center;
+}
+#countdown ,#result{
+  text-align: center;
+
+}
+#countdown span.time {
+  padding: 12px;
+  display: inline-block;
+  font-family: verdana;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  background: #008080;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn-wrap{
+  margin-top: 30px;
+  text-align: center;
+}
+#start,#reset {
+  padding: 0 16px;
+  margin-right: 4px;
+  font-size: 15px;
+  line-height: 2;
+  color: #FFF;
+  background: #3E62AD;
+  border-radius: 5px;
+  text-align: center;
+}
+#spanres{
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+
+
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+
+  color: white;
+  border-radius: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}

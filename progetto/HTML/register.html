@@ -1,0 +1,16 @@
+
+        <form id="regform" action="../PHP/signup.php" method="post">
+            <div class ="container">
+                <label for="unamer">Nome:</label>
+                <input type="text" size="16" maxlength="16" name="unamer" pattern="\w+" required title="Inserisci solo caratteri alfanumerici">
+
+                <label for="pswr">Password</label>
+                <input type="password" placeholder="Inserisci Password" name="pswr" required>
+
+                <label for="emailr">E-mail:</label>
+                <input type="email" placeholder="tuamail@gmail.com" name="emailr" required>
+
+                <br>
+                <button id="entra" type="submit">REGISTRATI</button>
+            </div>
+        </form>
